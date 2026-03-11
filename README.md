@@ -4,19 +4,19 @@
 
 This project analyzes pizza sales data using **SQL** to uncover insights related to customer ordering behavior, sales performance, and product popularity.
 
-The objective of this analysis is to answer key business questions such as:
+The objective of this analysis is to answer key business questions such as:   
 
-* How many orders were placed?
-* Which pizzas generate the most revenue?
-* What pizza sizes are most popular?
-* Which pizza categories perform best?
-* What are the peak order hours?
+* How many orders were placed?  
+* Which pizzas generate the most revenue?  
+* What pizza sizes are most popular?  
+* Which pizza categories perform best?  
+* What are the peak order hours?  
 
 The project demonstrates **data analysis skills using SQL**, including joins, aggregations, window functions, ranking functions, and subqueries.
 
 ---
 
-# 📊 Dataset Description
+## 📊 Dataset Description
 
 The dataset consists of **four relational tables** representing pizza sales transactions.
 
@@ -71,10 +71,9 @@ Contains information about the type of pizza.
 
 ---
 
-# 🗂 Database Schema
+## 🗂 Database Schema
 
 The tables are connected using **primary keys and foreign keys**.
-
 orders
 ⬇
 order_details
@@ -102,19 +101,18 @@ pizza_types
 
 ---
 
-# 🛠 Tools Used
+## 🛠 Tools Used
 
-* SQL (MySQL)
-* GitHub
-* PowerPoint (for query result screenshots)
+* SQL (MySQL)  
+* GitHub  
+* PowerPoint (for query result screenshots)  
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
-```
+```text
 pizza-sales-sql-analysis
-
 │
 ├── data
 │   ├── orders.csv
@@ -129,106 +127,101 @@ pizza-sales-sql-analysis
 │   └── pizza_sales_query_results.pptx
 │
 └── README.md
-```
 
----
-
-# 🔎 Analysis Questions
+🔎 Analysis Questions
 
 The following business questions were analyzed using SQL:
 
-1. Retrieve the total number of orders placed
-2. Calculate the total revenue generated from pizza sales
-3. Identify the highest priced pizza
-4. Identify the most common pizza size ordered
-5. List the top 5 most ordered pizza types along with their quantities
-6. Find the total quantity of each pizza category ordered
-7. Determine the distribution of orders by hour of the day
-8. Determine the top 3 most ordered pizza types based on revenue
-9. Calculate the percentage contribution of each pizza category to total revenue
-10. Analyze the cumulative revenue generated over time
-11. Determine the top 3 most ordered pizza types based on revenue for each category
+1.Retrieve the total number of orders placed
 
-All queries used to perform the analysis are available in:
+2.Calculate the total revenue generated from pizza sales
 
-```
+3.Identify the highest priced pizza
+
+4.Identify the most common pizza size ordered
+
+5.List the top 5 most ordered pizza types along with their quantities
+
+6.Find the total quantity of each pizza category ordered
+
+7.Determine the distribution of orders by hour of the day
+
+8.Determine the top 3 most ordered pizza types based on revenue
+
+9.Calculate the percentage contribution of each pizza category to total revenue
+
+10.Analyze the cumulative revenue generated over time
+
+11.Determine the top 3 most ordered pizza types based on revenue for each category
+
 sql_queries/pizza_sales_analysis.sql
-```
 
----
+📈 Key Insights
 
-# 📈 Key Insights
+Certain pizza sizes are significantly more popular than others.
 
-Some insights obtained from the analysis include:
+A small number of pizza types contribute to a large percentage of total revenue.
 
-* Certain pizza sizes are significantly more popular than others.
-* A small number of pizza types contribute to a large percentage of total revenue.
-* Sales activity peaks during specific hours of the day.
-* Some pizza categories consistently outperform others in terms of total quantity sold.
-* Revenue trends show consistent growth over time.
+Sales activity peaks during specific hours of the day.
 
-These insights help understand **customer preferences and sales performance**.
+Some pizza categories consistently outperform others in terms of total quantity sold.
 
----
+Revenue trends show consistent growth over time.
 
-# 📷 Query Results
+These insights help understand customer preferences and sales performance.
 
-Screenshots of SQL queries and their results are available in the following file:
 
-```
-query_results/pizza_sales_query_results.pptx
-```
+📷 Query Results
+
+Screenshots of SQL queries and their results are available in:
+query_results/pizza_sales_query_results.pdf
 
 This presentation contains:
 
-* SQL query
-* Query output
-* Result screenshots
+SQL query
+
+Query output
+
+Result screenshots
 
 These screenshots demonstrate how insights were derived from the dataset.
 
----
+🚀 How to Run This Project
 
-# 🚀 How to Run This Project
+Import the CSV files into your SQL database.
 
-1. Import the CSV files into your SQL database.
-2. Create tables matching the dataset structure.
-3. Insert the data from the CSV files.
-4. Run the SQL queries provided in:
+Create tables matching the dataset structure.
 
-```
+Insert the data from the CSV files.
+
+Run the SQL queries provided in:
+
 sql_queries/pizza_sales_analysis.sql
-```
 
----
+🎯 Skills Demonstrated
 
-# 🎯 Skills Demonstrated
+SQL Joins
 
-This project demonstrates the following data analysis skills:
+Data Aggregation
 
-* SQL Joins
-* Data Aggregation
-* Group By operations
-* Window Functions
-* Ranking Functions
-* Subqueries
-* Revenue Analysis
-* Business Insight Generation
+Group By operations
 
----
+Window Functions
 
-# 📌 Project Purpose
+Ranking Functions
 
-The goal of this project is to practice **SQL for data analysis** and build a **portfolio-ready project** that demonstrates the ability to extract insights from relational datasets.
+Subqueries
 
----
+Revenue Analysis
 
-# 👤 Author
+Business Insight Generation
 
-**Keshav Potdar**
+📌 Project Purpose
 
-Aspiring Data Analyst with a strong interest in **SQL, Data Analytics, and Business Insights**.
+The goal of this project is to practice SQL for data analysis and build a portfolio-ready project that demonstrates the ability to extract insights from relational datasets.
 
----
+👤 Author
 
-⭐ If you found this project useful, feel free to star the repository.
+Keshav Potdar
+
+Aspiring Data Analyst with a strong interest in SQL, Data Analytics, and Business Insights.
